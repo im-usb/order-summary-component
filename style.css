@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  height: 100vh;
+  background: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #e0e8ff;
+  overflow: hidden;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.container {
+  max-width: 450px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  border-radius: 18px;
+}
+
+.hero-img {
+  border: none;
+  border-radius: 18px 18px 0 0;
+  margin: 0 0 40px;
+}
+
+.order-details {
+  max-width: 355px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.order-details h2 {
+  margin: 0 0 20px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.order-details .order-desc {
+  margin: 0 0 20px;
+  color: #7280a7;
+}
+
+.order-details .plans {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f8f9fe;
+  margin: 0 0 20px;
+  /* justify-content: space-between; */
+}
+
+.plans img {
+  margin: 0 20px 0 0;
+}
+
+.plans .plan-details {
+  max-width: 190px;
+  width: 100%;
+  text-align: left;
+}
+
+.plans .plan-details .plan-type {
+  margin: 0 0 10px;
+  font-weight: 900;
+}
+
+.plans .plan-details .plan-amount {
+  margin: 0;
+  color: #7280a7;
+}
+
+.plans a {
+  text-decoration: none;
+  flex-basis: content;
+  transition: 0.3s ease;
+}
+
+.plans a:visited {
+  color: blue;
+}
+
+.plans a:hover {
+  color: #776bf1;
+}
+
+.payment-btn {
+  margin: 0 0 20px;
+  width: 100%;
+  border: none;
+  background: #382ae1;
+  color: #fff;
+  font-weight: 900;
+  padding: 15px 0;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  box-shadow: 0px 6px 20px 1px #776bf1;
+}
+
+.payment-btn:hover {
+  background-color: #776bf1;
+}
+
+.cancel-btn {
+  display: block;
+  text-decoration: none;
+  color: #7280a7;
+  font-weight: 900;
+  margin: 0 0 50px;
+  transition: 0.3s ease;
+}
+
+.cancel-btn:visited {
+  color: #7280a7;
+}
+.cancel-btn:hover {
+  color: #1f2f56;
+}
